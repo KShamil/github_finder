@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .input-group {
+        width: 800px;
+        margin-top: 20px;
+    }
+}
+
+.navbar-brand {
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    cursor: pointer;
+    &:hover {
+        color: grey;
+    }
+}
+
+.search_btn {
+    width: 70px;
+}
