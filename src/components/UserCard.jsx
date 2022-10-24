@@ -4,7 +4,7 @@ class UserCard extends Component {
   render() {
     const { login, avatar_url, html_url, bio } = this.props.comingData;
     return (
-      <div className="col">
+      <div className="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
         <div className="card" style={{ width: "18rem" }}>
           <img src={avatar_url} className="card-img-top" alt="..." />
           <div className="card-body">

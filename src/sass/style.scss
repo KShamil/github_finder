@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+@import 'media';
 
 
 .container {
@@ -7,7 +8,7 @@
     align-items: center;
 
     .input-group {
-        width: 800px;
+        width: calc(150px + 650 * (100vw / 1312));
         margin-top: 20px;
     }
 }
